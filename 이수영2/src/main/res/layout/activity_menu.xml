@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="고객 관리"
+        android:textSize="24dp"
+        android:onClick="onButton1Clicked"
+/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="매출 관리"
+        android:textSize="24dp"
+        android:onClick="onButton2Clicked"
+        android:layout_below="@+id/button1"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="상품 관리"
+        android:textSize="24dp"
+        android:onClick="onButton3Clicked"
+        android:layout_below="@+id/button"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그인"
+        android:textSize="24dp"
+        android:onClick="onButton4Clicked"
+        android:layout_below="@+id/button2"/>
+
+
+</RelativeLayout>

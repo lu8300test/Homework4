@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccc">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
+
+
+            <Button
+                android:id="@+id/cmBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="고객관리"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:drawableTop="@drawable/cus"
+                android:background="#ffffff"
+                android:onClick="onClicCM"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
+
+            <Button
+                android:id="@+id/smBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="매출관리"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:drawableTop="@drawable/dollar116"
+                android:background="#ffffff"
+                android:onClick="onClicSM"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
+
+            <Button
+                android:id="@+id/pmBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="상품관리"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:drawableTop="@drawable/prod"
+                android:background="#ffffff"
+                android:onClick="onClicPM"/>
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp">
+
+            <Button
+                android:id="@+id/loginBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="로그인"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:drawableTop="@drawable/key"
+                android:background="#ffffff"
+                android:onClick="onClickLoginBtn"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

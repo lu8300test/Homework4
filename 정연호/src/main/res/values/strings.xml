@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Day4 정연호</string>
+    <string name="action_settings">설정</string>
+    <string name="title_activity_menu">Day4 정연호 : 메뉴</string>
+    <string name="title_activity_cust">Day4 정연호 : 고객관리화면</string>
+    <string name="title_activity_sale">Day4 정연호 : 매출관리화면</string>
+    <string name="title_activity_prod">Day4 정연호 : 상품관리화면</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.day4_kangminkyoung.MainActivity">
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/password"
+        android:hint="아이디"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:hint="비밀번호"
+        android:textSize="15sp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/button01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="로그인"
+        android:textSize="18sp"
+        android:onClick="onButton1Clicked"
+        android:layout_alignTop="@+id/id"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="240dp"
+        android:layout_marginStart="240dp"
+        android:layout_alignBottom="@+id/password" />
+
+</RelativeLayout>

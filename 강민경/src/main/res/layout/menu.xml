@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <Button
+        android:id="@+id/customerBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="고객 관리"
+        android:textSize="18sp"
+        android:onClick="onButton2Clicked"/>
+
+    <Button
+        android:id="@+id/salesBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="매출 관리"
+        android:textSize="18sp"
+        android:onClick="onButton3Clicked"/>
+
+    <Button
+        android:id="@+id/productsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="상품 관리"
+        android:textSize="18sp"
+        android:onClick="onButton4Clicked"/>
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="로그인 페이지로"
+        android:textSize="18sp"
+        android:onClick="onButton5Clicked"
+ />
+
+
+</LinearLayout>
